@@ -7,10 +7,6 @@ import {
   Nav,
   NavItem,
   UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavLink,
 } from "reactstrap";
 import { Link } from "react-scroll";
 
@@ -99,7 +95,7 @@ const Menu = () => {
                 duration={500}
                 onClick={toggle}
               >
-                feature
+                features
               </Link>
             </NavItem>
             <NavItem>
@@ -113,7 +109,7 @@ const Menu = () => {
                 duration={500}
                 onClick={toggle}
               >
-                screenshot
+                screenshots
               </Link>
             </NavItem>
             {/* <NavItem>
