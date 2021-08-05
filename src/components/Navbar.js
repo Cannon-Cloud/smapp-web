@@ -144,20 +144,6 @@ const Menu = () => {
                 price
               </Link>
             </NavItem>
-            <NavItem>
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                onClick={toggle}
-              >
-                contact us
-              </Link>
-            </NavItem>
             <UncontrolledDropdown nav inNavbar></UncontrolledDropdown>
           </Nav>
         </Collapse>
