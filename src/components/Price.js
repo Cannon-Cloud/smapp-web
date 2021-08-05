@@ -99,7 +99,7 @@ const Price = () => {
       features:
         "<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>Priority Email Support</li><li>Dedicated Account Manager</li><li>Minimum 26 Users</li>",
       link: "#",
-      planQty: "25",
+      planQty: "26",
     },
   ];
 
