@@ -45,12 +45,7 @@ const Footer = () => {
                           />
                         </div>
                         <div className="footer-address">
-                          <a
-                            href="javascript"
-                            onClick={(e) => {
-                              e.preventDefault();
-                            }}
-                          >
+                          <a href="tel:+8884476277">
                             (888) 44-SMAPP / (888) 447-6277
                           </a>
                         </div>
@@ -63,12 +58,7 @@ const Footer = () => {
                           />
                         </div>
                         <div className="footer-address">
-                          <a
-                            href="javascript"
-                            onClick={(e) => {
-                              e.preventDefault();
-                            }}
-                          >
+                          <a href="mailto:support@smapp.works">
                             support@smapp.com
                           </a>
                         </div>
@@ -81,14 +71,7 @@ const Footer = () => {
                           />
                         </div>
                         <div className="footer-address">
-                          <a
-                            href="javascript"
-                            onClick={(e) => {
-                              e.preventDefault();
-                            }}
-                          >
-                            (888) 447-6277
-                          </a>
+                          <a href="tel:+8884476277">(888) 447-6277</a>
                         </div>
                       </li>
                     </ul>
