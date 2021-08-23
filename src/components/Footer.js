@@ -45,7 +45,7 @@ const Footer = () => {
                           />
                         </div>
                         <div className="footer-address">
-                          <a href="tel:+8884476277">
+                          <a href="tel:+18884476277">
                             (888) 44-SMAPP / (888) 447-6277
                           </a>
                         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                           />
                         </div>
                         <div className="footer-address">
-                          <a href="tel:+8884476277">(888) 447-6277</a>
+                          <a href="tel:+18884476277">(888) 447-6277</a>
                         </div>
                       </li>
                     </ul>
@@ -104,10 +104,10 @@ const Footer = () => {
       {/*Your customer chat code*/}
       <div
         className="fb-customerchat"
-        page_id="2123438804574660"
+        page_id=""
         theme_color="#18e7d3"
-        logged_in_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?"
-        logged_out_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?"
+        logged_in_greeting=""
+        logged_out_greeting=""
       ></div>
     </div>
   );
