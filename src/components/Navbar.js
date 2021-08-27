@@ -141,7 +141,12 @@ const Menu = () => {
               </Link>
             </NavItem>
             <NavItem>
-              <a className="nav-link" href="https://admin.smapp.works">
+              <a
+                className="nav-link"
+                href="https://admin.smapp.works"
+                target="_blank"
+                rel="noreferrer"
+              >
                 admin login
               </a>
             </NavItem>
