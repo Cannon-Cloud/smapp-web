@@ -140,6 +140,11 @@ const Menu = () => {
                 price
               </Link>
             </NavItem>
+            <NavItem>
+              <a className="nav-link" href="https://admin.smapp.works">
+                admin login
+              </a>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar></UncontrolledDropdown>
           </Nav>
         </Collapse>
