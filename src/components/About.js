@@ -67,26 +67,26 @@ const About = () => {
                         <div className="about-icon">
                           <div className="icon-hover">
                             <img
-                              src={`${process.env.PUBLIC_URL}/assets/images/icon1.png`}
+                              src={`${process.env.PUBLIC_URL}/assets/images/icon11.png`}
                               alt="easy-to-customized"
                             />
                           </div>
                         </div>
                         <div className="about-text">
-                          <h3>Easy customize</h3>
+                          <h3>Manage Files</h3>
                         </div>
                       </li>
                       <li className="abt-hover">
                         <div className="about-icon">
                           <div className="icon-hover">
                             <img
-                              src={`${process.env.PUBLIC_URL}/assets/images/icon3.png`}
+                              src={`${process.env.PUBLIC_URL}/assets/images/icon33.png`}
                               alt="easy-to-use"
                             />
                           </div>
                         </div>
                         <div className="about-text">
-                          <h3>easy to use</h3>
+                          <h3>Map Locaitons</h3>
                         </div>
                       </li>
                     </ul>
@@ -97,26 +97,26 @@ const About = () => {
                         <div className="about-icon">
                           <div className="icon-hover">
                             <img
-                              src={`${process.env.PUBLIC_URL}/assets/images/icon2.png`}
+                              src={`${process.env.PUBLIC_URL}/assets/images/icon22.png`}
                               alt="Awasome-Design"
                             />
                           </div>
                         </div>
                         <div className="about-text">
-                          <h3>Nice Design</h3>
+                          <h3>Add Images</h3>
                         </div>
                       </li>
                       <li className="abt-hover">
                         <div className="about-icon">
                           <div className="icon-hover">
                             <img
-                              src={`${process.env.PUBLIC_URL}/assets/images/icon4.png`}
+                              src={`${process.env.PUBLIC_URL}/assets/images/icon44.png`}
                               alt="SEO-Friendly"
                             />
                           </div>
                         </div>
                         <div className="about-text">
-                          <h3>Integration</h3>
+                          <h3>Track Sales</h3>
                         </div>
                       </li>
                     </ul>
