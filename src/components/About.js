@@ -86,7 +86,7 @@ const About = () => {
                           </div>
                         </div>
                         <div className="about-text">
-                          <h3>Map Locaitons</h3>
+                          <h3>Map Locations</h3>
                         </div>
                       </li>
                     </ul>
