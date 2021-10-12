@@ -48,8 +48,8 @@ const Promo = () => {
   // Dynamic Price Data Easy to Update
   let data = [
     {
-      title: "1 Month Free",
-      lable: "Use Coupon Code SmappWorks ",
+      title: "Use Coupon Code SmappWorks",
+      lable: "",
       price: "0",
       features: "",
       link: "#",
@@ -67,8 +67,6 @@ const Promo = () => {
           </div>
           <div className="mrp">
             <h6 className="user-type">{val.lable}</h6>
-            <div className="price-devide"></div>
-            <div className="price-devide"></div>
           </div>
 
           <a

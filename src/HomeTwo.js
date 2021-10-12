@@ -116,9 +116,7 @@ const HomeTwo = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <Promo />
-              </div>
+              <div></div>
             </div>
 
             <div className="col-sm-7">
