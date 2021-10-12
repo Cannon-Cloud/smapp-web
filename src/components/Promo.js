@@ -48,7 +48,7 @@ const Promo = () => {
   // Dynamic Price Data Easy to Update
   let data = [
     {
-      title: "Use Coupon Code SmappWorks",
+      title: "Use Coupon Code",
       lable: "",
       price: "0",
       features: "",
