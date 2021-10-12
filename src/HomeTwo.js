@@ -10,6 +10,7 @@ import Price from "./components/Price";
 // import Contact from "./components/Contact";
 // import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
+import Promo from "./components/Promo";
 // import TypeFormContat from "./components/TypeFormContact";
 // import CheckoutNew from "./components/CheckoutNew";
 // import Testimonial from "./components/Testimonial";
@@ -57,6 +58,7 @@ const HomeTwo = () => {
       <Menu homePage="home-two" />
 
       {/* Home Two Section Start */}
+
       <section
         id="home"
         className="home home-two vertical-scrolling"
@@ -67,7 +69,10 @@ const HomeTwo = () => {
             <div className="col-md-5 col-sm-12">
               <div className="home-contain">
                 <div className="text-white">
-                  <div className="contain">
+                  <div>
+                    <br />
+                    <br />
+                    <br />
                     <img
                       src={`${process.env.PUBLIC_URL}/assets/images/home2/logo-icon.png`}
                       alt="logo"
@@ -104,10 +109,18 @@ const HomeTwo = () => {
                         alt="play-store"
                       />
                     </a>
+                    <br />
+                    <div>
+                      <Promo />
+                    </div>
                   </div>
                 </div>
               </div>
+              <div>
+                <Promo />
+              </div>
             </div>
+
             <div className="col-sm-7">
               <div className="home-right">
                 <Tilt
