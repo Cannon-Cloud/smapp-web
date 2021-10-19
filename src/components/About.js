@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router";
+import AddEmail from "./AddEmail";
 const About = () => {
   const history = useHistory();
   useEffect(() => {
@@ -121,6 +122,7 @@ const About = () => {
                       </li>
                     </ul>
                   </div>
+                  <AddEmail />
                 </div>
               </div>
             </div>

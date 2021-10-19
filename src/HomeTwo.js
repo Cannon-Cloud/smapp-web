@@ -131,9 +131,9 @@ const HomeTwo = () => {
                           alt="play-store"
                         />
                       </a>
-                      <br />
+
                       <div>
-                        <AddEmail />
+                        <br />
                         <Promo />
                       </div>
                     </div>
