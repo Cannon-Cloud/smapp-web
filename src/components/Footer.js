@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Widget } from "@typeform/embed-react";
 
 const Footer = () => {
   useEffect(() => {
@@ -79,12 +80,11 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-6 p-0">
-                <iframe
-                  title="google-map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.56398137123!2d-121.58299673012544!3d38.56165047910054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA!5e0!3m2!1sen!2sus!4v1591460676456!5m2!1sen!2sus"
-                  allowFullScreen
-                  className="md-height"
-                ></iframe>
+                <Widget
+                  id="UROSg3jd"
+                  style={{ width: "100%", height: "100%" }}
+                  className="my-form"
+                />
               </div>
             </div>
           </div>

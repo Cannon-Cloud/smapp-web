@@ -80,19 +80,18 @@ const Promo = () => {
           >
             Click Here
           </a>
+          <br />
         </div>
       </div>
     );
   });
 
   return (
-    <section>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12">{DataList}</div>
-        </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12">{DataList}</div>
       </div>
-    </section>
+    </div>
   );
 };
 
