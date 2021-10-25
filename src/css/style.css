@@ -1488,6 +1488,12 @@ iframe.video-play {
   width: 230px;
   left: 453px;
 }
+.vid-mocup {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  left: 250px;
+}
 .mobile-light-left {
   position: absolute;
   z-index: 9;

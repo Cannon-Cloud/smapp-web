@@ -18,6 +18,7 @@ import { IntercomProvider, useIntercom } from "react-use-intercom";
 import AddEmail from "./components/AddEmail";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Video from "./components/Video";
 
 const HomeTwo = () => {
   const INTERCOM_APP_ID = "lb7rbb7o";
@@ -168,7 +169,7 @@ const HomeTwo = () => {
           </div>
         </section>
         {/* Home Two Section End */}
-
+        <Video />
         {/* About Component*/}
         <About />
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
+import Book from "./Book";
 
 const Promo = () => {
   useEffect(() => {
@@ -68,18 +69,22 @@ const Promo = () => {
           <div className="mrp">
             <h6 className="user-type">{val.lable}</h6>
           </div>
-
           <a
             href="javascript:void(0)"
             data-cb-type="checkout"
             data-cb-plan-id="smapp_monthly"
             data-cb-plan-quantity={val.planQty}
-            onClick="Chargebee.registerAgain(product.addCoupon(SMAPPWORKS)) "
+            onClick="Chargebee.registerAgain() "
             className="btn btn-custom theme-color"
             role="button"
           >
             Click Here
           </a>
+          <div>
+            <h3>Dont have a coupon code?</h3>
+          </div>
+          <Book />
+
           <br />
         </div>
       </div>
