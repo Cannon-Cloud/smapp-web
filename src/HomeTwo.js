@@ -169,6 +169,7 @@ const HomeTwo = () => {
           </div>
         </section>
         {/* Home Two Section End */}
+        <Video />
         {/* About Component*/}
         <About />
 
