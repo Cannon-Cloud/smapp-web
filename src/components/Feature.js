@@ -125,7 +125,7 @@ const Feature = () => {
                     <div>
                       <p>
                         Add an image to the location. A business card, details
-                        about a specific sit setup. You can view these later and
+                        about a specific site setup. You can view these later and
                         plan your next move.{" "}
                       </p>
                     </div>
